@@ -2,7 +2,7 @@
 
 ---
 
-# 📈 Bread and Butter Trader
+# 📈 A Bread and Butter Style Pairs Trading System
 
 ---
 
@@ -40,7 +40,7 @@ The system leverages additional statistical tools to refine its suggestions:
 
 While integrating large language models (LLMs) for further analysis is feasible, it has not been a primary focus at this stage.
 
-The result? An interactive, intuitive approach to algorithmic trading—"Bread and Butter Trading"—bringing together robust quantitative analysis with a practical, hands-on decision-making approach.
+The result? An interactive, intuitive approach to algorithmic trading —"Pair B&B"— bringing together robust quantitative analysis with a practical, hands-on decision-making approach.
 
 ---
 
