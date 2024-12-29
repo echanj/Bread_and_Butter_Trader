@@ -170,7 +170,49 @@
                 <br>
               </div>
               
-                        
+            <div style="margin-bottom: 20px; color: #333;">
+                <h1 style="font-family: 'Georgia', serif; color: #2c3e50;">
+                  Machine Learning - General Approach and Workflow. 
+                </h1>
+              
+                <p style="font-size: 16px; line-height: 1.6;">
+                    Multiple hyper-settings that control the B&B trader are adjusted, which changes the way the trader behaves, and as a result, different stocks will be traded with different trading parameters. The resultant portfolio over any historical time period will be different, and most importantly, the evaluation signal is always from unbiased test data. The automaton thus represents a layer of abstraction that can be used to simulate many automated trading scenarios using a condensed set of hyperparameters. The goal of machine learning is to predict an optimized set of hyperparameters. This workflow is represented in the scheme below. 
+                </p>
+
+                    <div style="text-align: center;">
+                    <img src="./images/ML_workflow.jpg" alt="Page 3" style="width: 60%; height: auto;">
+                    <div style="margin-top: 8px;">
+
+                      <h3>Jupyter notebook with Supervised Learning Classification example.</h3>
+                      <p><a href="./notebooks/Demo_ML_PairB&B_outputs_15m.html" style="text-decoration: none; color: #29b941;">Demo Supervised Learning EDA Random Forest (.html view in browser)</a></p>
+                      <p><a href="./notebooks/Demo_ML_PairB&B_outputs_15m.ipynb" style="text-decoration: none; color: #29b941;">Demo Supervised Learning EDA Random Forest (as .ipynb)</a></p>
+                      
+                      <h3>Backtesting and auxillary data used in the notebook </h3>
+                      <p><a href="./csv_files/vpt_metrics_SPY15m_no_features.csv" style="text-decoration: none; color: #a329b9d7;"> Simualted portfolios with various hyperparameters    </a></p>
+                      <p><a href="./csv_files/vpt_metrics_SPY15m_PCA_features.csv" style="text-decoration: none; color: #a329b9d7;"> Backtesting data augmented with PCA features with one-day and five-day lookback from evaluation date   </a></p>
+                      <p><a href="./csv_files/vpt_metrics_SPY15m_PCA1_features.csv" style="text-decoration: none; color: #a329b9d7;"> Backtesting data augmented with PCA features with one-day  lookback from evaluation date   </a></p>
+
+                      <p><a href="./csv_files/GSPC_data_01Dec24.csv" style="text-decoration: none; color: #a329b9d7;"> S&P500 data used to augment the backtesting data </a></p>
+                      <p><a href="./csv_files/VIX_data_01Dec24.csv" style="text-decoration: none; color: #a329b9d7;"> VIX data used to augment the backtesting data </a></p>
+                    </div>
+                  </div>
+
+                    <div>
+                    <h3>Machine Learning Questions</h3>
+                 <ol>
+                    <li>Is there always a combination of hyperparameters that leads to a positive PNL?</li>
+                    <li>Is there one combination of hyperparameters that generally helps to reduce risk and maintain a steady profit?</li>
+                    <li>
+                        If we supplement this backtesting data with other time-dependent features (e.g., market indices, exchange rates, econometric indicators),
+                        can we predict which hyperparameter setting to use that will give us the best Sharpe ratio or cash returns in the future?
+                    </li>
+                </ol>
+                </div>
+                <p style="font-size: 16px; line-height: 1.6; background-color: #f9f9f9; padding: 10px; border-left: 4px solid #3498db;">
+                    If you are using any notebooks or data, please note that the contents of this page are subject to copyright (see below). 
+                    Kindly reference appropriately. Don’t hesitate to connect with me—I look forward to any suggestions!
+                </p>
+            </div>                 
     </div>
 
     <footer class="container-fluid">
