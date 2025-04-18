@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>A Bread and Butter Style Pair Trading System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Include MathJax in the head tag -->
+  <script type="text/javascript" async 
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+
+<!-- content delivery network CDN support for Bootstrap's CSS and JavaScript. You must also include jQuery-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #cfc078;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #23a8ef;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row content">
+          <div class="col-sm-2 sidenav">
+              <h4 style="font-family: 'Georgia', serif;">
+                  PairB&B: <em>" If I can do it then anyone can. !!! "</em>
+              </h4>
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="index.html">Main</a></li>
+              <li ><a href="algo_trade.html">Algo-trade </a></li>
+              <li ><a href="risk_and_performance.html">Risk and Performance Analysis</a></li>
+              <li ><a href="machine_learn.html">Machine Learning</a></li>
+              <li class="active" ><a href="automated_execution.html">Automated Execution</a></li>
+            </ul><br>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Magnifying glass? ">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  <span class="glyphicon glyphicon-search"></span>
+                </button>
+              </span>
+            </div>
+          </div>
+
+    <div class="col-sm-8">
+        
+        <div>
+            <br>
+            <!-- Header Section -->
+            <h4>Web pages under construction</h4>
+            <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+              <!-- Logo -->
+              <img src="./images/canva_comic_logo2.jpg" alt="Logo" style="height: 130px; border-radius: 0;">
+              
+              <!-- Title -->
+              <h1 style="font-family: 'Georgia', serif; font-size: 2em; color: #333;">
+                <span style="color: #2c3e50;">A Bread and Butter Style</span> 
+              <span style="font-style: italic; color: #2980b9;">Pair Trading System:</span> <br>
+              <span style="font-weight: lighter; color: #333;">Generalized Pairs Trading "For Dummies"</span> 
+              <span style="font-weight: bold; color: #2980b9;">(PairB&B)</span>
+              </h1>
+            </div>
+
+
+            <div style="margin-bottom: 20px; color: #333;">
+                <h1 style="font-family: 'Georgia', serif; color: #2c3e50;">
+                    Automating Order Execution. Result from our Psuedo-live (paper) test. 
+                </h1>
+                <p style="font-size: 16px; line-height: 1.6;">
+                    NOW this was a real CRUX!!!! Once the micro-strategies are screened and ranked via our "Pair" or "Single" trading automata (cross-sectional portfolio generation, details <a href="./algo_trade.html" style="text-decoration: none; color: #403df2c7;"> here </a> and <a href="./machine_learn.html" style="text-decoration: none; color: #403df2c7;"> here </a>), the next stage is to select and run these strategies in a manner that is as close as possible to running automated trades via a live account. It turns out most trading platforms are equipped with various tools that can facilitate this process, allowing for real-time execution and adjustment of strategies via API functions. However, some monitoring is still essential to ensure that the algorithms are performing as expected and to make any necessary adjustments. Automation can greatly enhance trading strategies and decision-making processes in real-time market environments. </p> 
+
+                       <div style="text-align: center;">
+                        <img src="./images/live_trading_bot_workflow.png" alt="Page 3" style="width: 80%; height: auto;">
+                        <p style="font-size: 16px; line-height: 1.6;">
+                            Microstrategy generation and automated execution workflow scheme depicting database storage of trading activity details and performance optimization via data feedback. Strategies are generated using hyperparameters corresponding with those inferred using ML models. The portfolio backtest data for training ML models was fixed at 20 trading days (test data). This suggests a reliable running period before strategy retirement might be the same as this period, i.e., 20 days. Granted, currently we have no method in place to obtain this period exactly, perhaps in the future.  
+                        </p>
+                        </div>
+                        <br>
+
+                <p style="font-size: 16px; line-height: 1.6;">
+                    We ran our tests using the IBKR gateway, and every necessary aspect of the trading can be automated via a Python API. This allows for efficient execution of trades and real-time monitoring of portfolio performance. By leveraging these tools, we can continuously refine our strategies and adapt to changing market conditions, ensuring that our approach remains robust and effective over time.
+
+                    <p style="font-size: 16px; line-height: 1.6;"> 
+                       NB: The way communication with the gateway works is both "event-driven" and "asynchronous." We won't go into the details, but this is not as straightforward as setting up a backtest with historical data. It includes extra details and subtle refinements that have to do with the order submission process. In fact, when we dive into this, there are a lot of interesting controls that we can engineer into our order placement scheme that we seldom consider in a cross-sectional (vectorized) backtest, and the algorithmic trading rules can become quite complex (see below). </p>
+
+                       <img src="./images/IMG_2448.jpg " alt="Logo" style="height: 350px;">
+                       <p style="font-size: 16px; line-height: 1.6;">
+                           The current pseudo-code for running a micro-strategy live (or pseudo-live) on IBKR gateway is something like this.)
+                       </p>
+                       <br>
+
+                       <p style="font-size: 16px; line-height: 1.6;"> 
+                       We don't have a strong opinion on this at the moment, but if we make reference to the book "Following the Trend," then the author (A. Clenow) stipulates against such granular rules for buy, sell, entry, and exit engineering (instead favoring diversification and sizing) when it comes to how one decides to manage time for coding and live testing such manipulations of a trade, but that doesn't necessarily mean we fully agree; at least it's a good idea to take the opportunity to try experimenting with a few features that we could not with cross-sectional backtesting. After all, we are going to test mean-reverting strategies with short half-lives.  </p>
+                       <p style="font-size: 16px; line-height: 1.6;"> 
+                       We are running the strategies with paper trading for two main reasons. Firstly, there is no chance of lookahead bias, and secondly, we want to debug our codes thoroughly  so that the algorithmic workflow is as robust as possible. It follows that certain   errors can only be tested once communication is set up and the micro-strategies (client applications) are running in real time. 
+                </p>
+            </div>
+
+            <div style="margin-bottom: 20px; color: #333;">
+                <h1 style="font-family: 'Georgia', serif; color: #2c3e50;">
+                  Example of Client Thread Running a Pair Trader Micro-strategy with the IBKR Gateway.   
+                </h1>
+              
+                <p style="font-size: 16px; line-height: 1.6;">
+
+                    The stand-alone PairTrader Portfolio Generator© tool is run up to the specified evaluation date, and micro-strategies are exported accordingly; most often this is a user's present date, i.e., just before the date of market open. We intend to set up our cloud-based clients to connect to the ECN and run during market hours with pre-optimized trading variables. The variables saved from the generator are thus loaded into the client application. Once a client is connected, it will run the strategy until stopped. Below is an example of the output from the client application running a price update. For this strategy, we are using delayed data since the frequency of the backtest is daily; however, clients monitor relevant information within a chosen update frequency (typically 15 minutes).
+                    <p><a href="./supporting_info/client20_16APR25.log" style="text-decoration: none; color: #29b941;">See entire example client application log here</a></p>
+                    
+                </p>
+              
+                <pre style="font-family: 'Courier New', monospace; font-size: 10px; background-color: #f9f9f9; padding: 10px; border-radius: 8px; border: 1px solid #ddd; line-height: 1.5;">
+            
+                App 20 is already connected and running.
+                sleeping 600s during overwatch (resumes: 2)
+                -------------------Updating Prices-------------------------------------
+                update date and time :  2025-04-15 09:51:07.991621
+                current date: 2025-04-15 is a trading date 2025-04-15 
+                reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+                reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+                finished historical requests. (updates: 16)
+                saving class attributes to file client20_live_trade_state_info.h5
+                    The current order state: Filled
+                
+                Checking if z-score will trigger order on 2025-04-15 09:51:07.991621 
+                Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+                the historical last close is used for integer ratios and quantity  
+                last close PNC: 157.19
+                last close RF: 19.48
+                last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+                upd z-score: -0.12412120412098412, upd position: 1, upd ema: 5.007948393511331, upd emv: 2.3854854602848814
+                total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+                Calculating differnt spreads and deviations
+                w-spread last: 144.45999999999992
+                agressive w-spread bid ask buying indicator: 166.36
+                agressive w-spread bid ask selling indicator: 98.87
+                mid from ask bid close PNC: 157.19, delta: 0.37
+                mid from ask bid close RF: 19.48, delta: 0.02 
+                mid from high ask low bid PNC: 154.63, delta: 8.31 
+                mid from high ask low bid RF: 19.39, delta: 0.43
+                w-spread mid close indicator: 144.49, delta: 0.20 
+                w-spread mid hilo indicator: 132.62, delta: 4.37 
+                delta setting:pct lambda:0.1 delta hilo: 4.37 max_delta: 174.19
+                Order delta : 6.75
+                updating  zscore information !!!
+                last orderId: 9 , current profit est: 64.44  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+                the current position remains!!! waiting for next z-score update
+                
+                waiting for price update. Last update was 6.36s ago. waiting to complete 900s
+                wait time 893.64s 
+                          
+              
+                </pre>
+
+
+                <p style="font-size: 16px; line-height: 1.6;">
+
+                   
+                    Prior to market open, this client was already holding a positive "BUY" position on the current pair; then during early market hours, the thread algo triggered an order after the update at around 10:06am (see below transcript). The order trigger was not the z-score; instead, a profit-take threshold was reached, which is determined by updated prices and volatility metrics. This triggered a market order, which appeared to have executed soon after and the traders position is set to 0. Once filled the profit on that trade was about $73.00      
+                    
+                </p>
+              
+                <pre style="font-family: 'Courier New', monospace; font-size: 10px; background-color: #f9f9f9; padding: 10px; border-radius: 8px; border: 1px solid #ddd; line-height: 1.5;">
+            
+                    Checking if z-score will trigger order on 2025-04-15 10:06:08.056040 
+                    Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+                    the historical last close is used for integer ratios and quantity  
+                    last close PNC: 159.41
+                    last close RF: 19.78
+                    last z-score: -0.12412120412098412, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+                    upd z-score: -0.19892830485789878, upd position: 1, upd ema: 4.9957489832087925, upd emv: 2.39099657241608
+                    total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+                    Calculating differnt spreads and deviations
+                    w-spread last: 145.48000000000002
+                    agressive w-spread bid ask buying indicator: 151.54
+                    agressive w-spread bid ask selling indicator: 134.23
+                    mid from ask bid close PNC: 159.14, delta: 0.91
+                    mid from ask bid close RF: 19.79, delta: 0.01 
+                    mid from high ask low bid PNC: 158.67, delta: 1.86 
+                    mid from high ask low bid RF: 19.73, delta: 0.15
+                    w-spread mid close indicator: 143.68, delta: 0.46 
+                    w-spread mid hilo indicator: 142.89, delta: 1.00 
+                    delta setting:pct lambda:0.1 delta hilo: 1.00 max_delta: 176.61
+                    Order delta : 1.73
+                    updating  zscore information !!!
+                    last orderId: 9 , current profit est: 70.56  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+                    triggering a market order to close the long position and take profits
+                    
+                    placing combo order orderId: 114, transmit : True
+                    limit price: 142.89 + limit delta: -1.73 =  141.15 
+                    App 20 is already connected and running.
+                    sleeping 600s during overwatch (resumes: 2)
+                    openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+                    orderStatus -- orderId: 114, status:  PreSubmitted, filled: 0, remaining: 6, avgFillPrice: 0.0, permId: 147990883, parentId: 0, lastFillPrice: 0.0, clientId: 20, whyHeld: , mktCapPrice: 0.0
+                    Order 114 status not filled.
+                    Order ID:114 has been submitted
+                    waiting for price update. Last update was 19.68s ago. waiting to complete 900s
+                    checking pending order state !!
+                    
+                    --------------------------------------------------------------
+                    Pending order checking routine!! order State: PreSubmitted
+                    
+                    Checking that SELL order (id:114, MKT:141.15, size:6 ) could be excecuted based on latest top of book estimates from price update on 2025-04-15 10:06:08.056040
+                    last close PNC: 159.41
+                    last close RF: 19.78
+                    PNC - lowest ASK : 158.05 - highest BID : 158.69 
+                    RF - lowest ASK : 19.68 - highest BID : 19.8 
+                    weighted spread price top of book buying: 136.50 
+                    weighted spread price top of book selling: 145.26 
+                    w-spread last: 145.48
+                    Order action: SELL Limit Price: 141.15
+                    current postion: 1  position if filled: 0
+                    the old zscore  -0.1989
+                    the new zscore  -0.1989
+                    updating  zscore information !!!
+                    Checking if the profit on this trade is above a certian threshold  i.e. ratio1*delta_Z*sigma_Z > 10
+                    Profit Estimate using total quantity @z (SELL): 8.836017881910715
+                    Ideal Profit Estimate using total quantity  (SELL): 70.09485447582499
+                    Failed profit check -- this will prevent the order submission 
+                    Failed volatility based profit check -- this may cancel the order submission 
+                    Current top-of-book profit est: 69.24
+                    This is a MKT order and will not triger cancel here!!!
+                    Slippage in the z-score: 0.0  cxl slippage : 0.04892830485789876
+                    This is a MKT order and will not change due to z-slippage!!!
+                    the order is still pending....saving progess....
+                    saving class attributes to file client20_live_trade_state_info.h5
+                    Last price update was 19.68s ago.
+                    waiting 440.16s before triggering order status !!
+                    Execution Details -- ID:114 || SLD 6 PNC,RF @ 20250415 10:06:27 US/Eastern
+                    openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+                    orderStatus -- orderId: 114, status:  Filled, filled: 6, remaining: 0, avgFillPrice: 145.91, permId: 147990883, parentId: 0, lastFillPrice: 145.91, clientId: 20, whyHeld: , mktCapPrice: 0.0
+                    Order ID:114 has been filled by the system
+                    updating order position 1 -> 0
+                    
+                          
+              
+                </pre>
+
+
+
+                <p style="font-size: 16px; line-height: 1.6;">
+
+                   
+                    Interestingly, throughout the day the Z-score trickles back down to the negative regime at around 2:13pm. A crossover fluctuation then triggered an order. The client has then resumed a positive position; we expect the z-score to revert back to zero and possibly head into the positive regime, which would maximize our profit. At the end of the market, the profit estimate on this position is still positive, with our z-score metric centered to the negative side and our fingers crossed for an expected reversion the next trading day.   
+                    
+                </p>
+              
+                <pre style="font-family: 'Courier New', monospace; font-size: 10px; background-color: #f9f9f9; padding: 10px; border-radius: 8px; border: 1px solid #ddd; line-height: 1.5;">
+                    -------------------Updating Prices-------------------------------------
+                    update date and time :  2025-04-15 14:13:49.928658
+                    current date: 2025-04-15 is a trading date 2025-04-15 
+                    finished historical requests. (updates: 34)
+                    saving class attributes to file client20_live_trade_state_info.h5
+                    The current order state: Filled
+
+                    Checking if z-score will trigger order on 2025-04-15 14:13:49.928658 
+                    Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+                    the historical last close is used for integer ratios and quantity  
+                    last close PNC: 156.16
+                    last close RF: 19.53
+                    last z-score: -1.1617402679428206, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+                    upd z-score: -0.9182005282893809, upd position: 1, upd ema: 4.872581825127573, upd emv: 2.58994358374164
+                    total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+                    Calculating differnt spreads and deviations
+                    w-spread last: 155.67999999999984
+                    agressive w-spread bid ask buying indicator: 158.37
+                    agressive w-spread bid ask selling indicator: 148.17
+                    mid from ask bid close PNC: 156.17, delta: 0.21
+                    mid from ask bid close RF: 19.54, delta: 0.01 
+                    mid from high ask low bid PNC: 155.85, delta: 0.84 
+                    mid from high ask low bid RF: 19.53, delta: 0.09
+                    w-spread mid close indicator: 155.48, delta: 0.11 
+                    w-spread mid hilo indicator: 153.27, delta: 0.47 
+                    delta setting:pct lambda:0.1 delta hilo: 0.47 max_delta: 203.08
+                    Order delta : 1.02
+                    updating  zscore information !!!
+                    Checking if the profit on this trade is above a certian threshold  i.e. ratio1*delta_Z*sigma_Z > 10
+                    Profit Estimate using total quantity @z (BUY): 66.34188914388683
+                    Ideal Profit Estimate using total quantity (BUY): 68.14777518482985
+
+                    placing combo order orderId: 217, transmit : True
+                    limit price: 155.47 + limit delta: 1.02 =  156.5 
+                    openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+                    orderStatus -- orderId: 217, status:  PreSubmitted, filled: 0, remaining: 5, avgFillPrice: 0.0, permId: 147990886, parentId: 0, lastFillPrice: 0.0, clientId: 20, whyHeld: , mktCapPrice: 0.0
+                    Order 217 status not filled.
+                    Order ID:217 has been submitted
+                    waiting for price update. Last update was 9.52s ago. waiting to complete 900s
+                    checking pending order state !!
+
+                    --------------------------------------------------------------
+                    Pending order checking routine!! order State: PreSubmitted
+
+                    Checking that BUY order (id:217, LMT:156.50, size:5 ) could be excecuted based on latest top of book estimates from price update on 2025-04-15 14:13:49.928658
+                    last close PNC: 156.16
+                    last close RF: 19.53
+                    PNC - lowest ASK : 155.66 - highest BID : 156.11 
+                    RF - lowest ASK : 19.5 - highest BID : 19.57 
+                    weighted spread price top of book buying: 150.26 
+                    weighted spread price top of book selling: 156.77 
+                    w-spread last: 155.68
+                    Order action: BUY Limit Price: 156.5
+                    current postion: 0  position if filled: 1
+                    the old zscore  -0.9182
+                    the new zscore  -0.9182
+                    checking for z crossing back over entry line.
+                    updating  zscore information !!!
+                    Checking if the profit on this trade is above a certian threshold  i.e. ratio1*delta_Z*sigma_Z > 10
+                    Profit Estimate using total quantity @z (BUY): 66.34188914388683
+                    Ideal Profit Estimate using total quantity (BUY): 68.14777518482985
+                    Slippage in the z-score: 0.0  cxl slippage : 0.03179947171061903
+                    the order is still pending....saving progess....
+                    saving class attributes to file client20_live_trade_state_info.h5
+                    Last price update was 9.52s ago.
+                    waiting 445.24s before triggering order status !!
+                    App 20 is already connected and running.
+                    sleeping 600s during overwatch (resumes: 2)
+
+                    ..........
+
+                    Execution Details -- ID:217 || SLD 100 RF @ 20250415 14:14:00 US/Eastern
+                    openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+                    orderStatus -- orderId: 217, status:  PreSubmitted, filled: 4, remaining: 1, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+                    Order 217 status not filled.
+                    Order ID:217 has been submitted
+                    Execution Details -- ID:217 || SLD 92 RF @ 20250415 14:14:00 US/Eastern
+                    openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+                    orderStatus -- orderId: 217, status:  PreSubmitted, filled: 4, remaining: 1, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+                    Order 217 status not filled.
+                    Order ID:217 has been submitted
+                    Execution Details -- ID:217 || BOT 5 PNC,RF @ 20250415 14:14:00 US/Eastern
+                    openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+                    orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+                    Order ID:217 has been filled by the system
+                    updating order position 0 -> 1
+
+
+                    ..........
+
+                    -------------------Updating Prices-------------------------------------
+                    update date and time :  2025-04-15 16:28:51.246097
+                    current date: 2025-04-15 is a trading date 2025-04-15 
+                    finished historical requests. (updates: 43)
+                    saving class attributes to file client20_live_trade_state_info.h5
+                     The current order state: Filled
+                    
+                    Checking if z-score will trigger order on 2025-04-15 16:28:51.246097 
+                    Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+                    the historical last close is used for integer ratios and quantity  
+                    last close PNC: 155.38
+                    last close RF: 19.43
+                    last z-score: -1.086825294405048, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+                    upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+                    total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+                    Calculating differnt spreads and deviations
+                    w-spread last: 155.01999999999987
+                    agressive w-spread bid ask buying indicator: 160.96
+                    agressive w-spread bid ask selling indicator: 148.92
+                    mid from ask bid close PNC: 155.32, delta: 0.13
+                    mid from ask bid close RF: 19.44, delta: 0.01 
+                    mid from high ask low bid PNC: 155.54, delta: 1.24 
+                    mid from high ask low bid RF: 19.45, delta: 0.07
+                    w-spread mid close indicator: 154.39, delta: 0.07 
+                    w-spread mid hilo indicator: 154.94, delta: 0.66 
+                    delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+                    Order delta : 1.20
+                    updating  zscore information !!!
+                    The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+                    last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+                    the current position remains!!! waiting for next z-score update
+                    
+                    
+
+
+
+                </pre>
+            </div>
+            <div style="margin-bottom: 20px; color: #333;">
+                    <h1 style="font-family: 'Georgia', serif; color: #2c3e50;">
+                        Initial Results for Multiple Threads   
+                    </h1>
+                    <h3 style="font-family: 'Georgia', serif; color: #2c3e50;">Roughly One Month of Pseudo-Live Simulation</h3>
+                    
+
+                <br>
+                <p style="font-size: 16px; line-height: 1.6;">
+                    This section presents preliminary results from our multi-threaded pseudo-live paper trading experiment, simulating a real-time environment over a period of approximately one month. The system comprises multiple autonomous trading agents (“clients” or “bots”) executing trades in parallel across various trading opportunities identified by our statistical arbitrage engine.</p>
+                <br>
+                
+                <h4 style="font-family: 'Georgia', serif; color: #2c3e50;">Trade Activity Overview </h4>    
+                <div style="text-align: center;">
+                <img src="./images/trades_table_head_18APR25.jpg" alt="Logo" style="height: 350px;">
+                </div>
+                
+                <p style="font-size: 16px; line-height: 1.6;">
+                    The above table displays a snapshot of trade activity uploaded directly from the database. While the full trade log is extensive, the sample shown highlights the structure of each executed trade. These fields capture critical execution details per order and help track position changes and individual performance metrics per bot. A total of 47 trades were executed during the experiment, with each trade representing a fully-formed position, typically involving $10,000 of virtual capital allocation per side.
+                </p>
+                
+                <br>
+                <h4 style="font-family: 'Georgia', serif; color: #2c3e50;">Revenue Over Time</h4>    
+                <div style="text-align: center;">
+                
+                <img src="./images/paper_sim_ibkr_revenue_18APR25.png" alt="Logo" style="height: 350px;">
+                </div>
+                <p style="font-size: 16px; line-height: 1.6;">
+                    The above plot shows cumulative revenue (in USD) over time aggregated across all active bots. Starting from a flat baseline, the portfolio experienced consistent upward movement. While encouraging, these results exclude commission and transaction fees, and thus represent gross paper-trading PnL. Notably, there were no significant drawdowns, though it's worth emphasizing that the evaluation period is still short, and we caution against drawing strong conclusions this early. We invite viewers to interpret these results cautiously while we continue to monitor the trajectory as the system stabilizes. 
+                </p>
+                <br>
+                <h4 style="font-family: 'Georgia', serif; color: #2c3e50;">Position Holding Behavior</h4>    
+                <div style="text-align: center;">
+                <img src="./images/paper_sim_ibkr_positions_18APR25.png" alt="Logo" style="height: 350px;">
+                </div>
+                <p style="font-size: 16px; line-height: 1.6;">
+                    The chart above illustrates the total number of open positions across all bots on each trading day. The position count fluctuated between 0 and a peak of 6. Position counts reflect the capital engaged in the market at any point, most days saw 2-3 concurrent positions. This metric indirectly shows capital utilization efficiency. With no more than 10 bots running during market hours, the average utilization appears moderate, suggesting room for expansion or tighter position selection criteria.  
+                </p>
+                <br>
+                <h4 style="font-family: 'Georgia', serif; color: #2c3e50;">Operational Notes</h4>    
+                
+                <p style="font-size: 16px; line-height: 1.6;">
+                    It is important to mention that the early stages of this experiment were marked by:
+                    <ol>
+                        <li>Numerous bugs in the multi-threaded workflow</li>
+                        <li>Unanticipated system behavior due to I/O complexity and asynchronous client execution</li>
+                        <li>Limited bot deployment initially, while core infrastructure was being actively debugged</li>
+                        <li>Frequent human intervention required outside market hours to resolve errors and iterate on workflow stability</li>
+
+                    </ol>
+                    Furthermore, some open positions are held for extended periods, often due to a lack of mean-reversion signals. In our vectorized backtest framework, these would typically be marked as realized losses. However, in this pseudo-live system, human oversight enables us to monitor and attempt to reduce losses through discretionary exits when signals are delayed or misfiring. That said, capital tied up in such stagnant positions limits opportunity for redeployment, which is a point of inefficiency we intend to address. Approaches for routing capital allocation to clients (e.g., Kelly weighting) will also need to be a key focus for future developments. 
+                </p>
+                <br>
+
+               
+            </div>
+              
+            
+                             
+    </div>
+
+    <footer class="container-fluid">
+        <p>  <em> Let me tell you a story about the easygoing guy named Joe who worked in industry. Joe was often entrusted with complex theoretical challenges, as others in the division asserted they lacked the expertise to handle them. He never really believed anyone was lacking in expertise, just that time and effort were required (his self-sacrifice included). He took this in stride—grateful to have meaningful work and motivated by the intellectual challenge. He also allowed others to take on the rewarding corporate tasks he was equally capable of performing, assuming it would promote harmony and teamwork.
+
+            To solve difficult problems and access necessary instruments, he frequently worked late nights and weekends, often coming in on Saturdays when equipment was finally available. Over time, he transitioned from hands-on lab work to a more computational role……
+
+            .....This story has a sad ending. The key takeaway: DON'T EVER BE THE NICE GUY…
+             ...</em>   </p>
+        <p>Copyright © 2022-2050 by Dr. Eric Joseph Chan. All Rights Reserved. <a href="terms-of-use.html">Terms of Use</a></p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,2420 @@
+setting order transmit to True
+App 20 is disconnected. Attempting to reconnect...
+Reconnecting... Attempt 1/10
+reqId: -1, errorCode: 2104, errorString: Market data farm connection is OK:usfarm, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+reqId: -1, errorCode: 2158, errorString: Sec-def data farm connection is OK:secdefil, orderReject: 
+we have nextiD:  11
+Reconnected successfully!
+App 20 reconnected successfully.
+!!! We are resuming with loaded params from previous run.
+The VPT data is not initalized. 
+Be sure to make any nessesary parameter changes directly to the trading instance !!!!
+Loading key: dates_update_status
+Loading key: liq_time_end_dt
+Loading key: orderState
+Loading key: order_execution_details
+Loading key: order_info
+Loading key: orders
+Loading key: orders_filled
+Loading key: pair_contracts
+Loading key: pair_historical_data
+Loading key: pair_symbols
+Loading key: trades
+Loading key: use_vol_adjustment
+Loading key: vpt_info
+Loaded attributes from: client20_live_trade_state_info.h5
+checking volatility adjustment: True
+long entry,exit: -0.95, 0.25 ; short entry,exit:  1.05, -0.15000000000000002 
+resuming pair_trading algo for PNC and  RF from loaded state
+reseting historical data buffers
+reseting price update counter to zero
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 06:06:06.663786
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 1)
+saving class attributes to file client20_live_trade_state_info.h5
+sleeping 600s during overwatch (resumes: 2)
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 06:06:06.663786 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.1s ago. waiting to complete 900s
+wait time 893.9s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 06:21:06.780815
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 2)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 06:21:06.780815 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 20.93s ago. waiting to complete 900s
+wait time 879.07s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 06:36:06.869117
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 3)
+saving class attributes to file client20_live_trade_state_info.h5
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 06:36:06.869117 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.41s ago. waiting to complete 900s
+wait time 893.59s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 06:51:06.939189
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 4)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 06:51:06.939189 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.41s ago. waiting to complete 900s
+wait time 893.59s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 07:06:07.011006
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 5)
+saving class attributes to file client20_live_trade_state_info.h5
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 07:06:07.011006 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.42s ago. waiting to complete 900s
+wait time 893.58s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 07:21:07.097095
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 6)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 07:21:07.097095 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.57s ago. waiting to complete 900s
+wait time 893.43s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 07:36:07.144334
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 7)
+saving class attributes to file client20_live_trade_state_info.h5
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 07:36:07.144334 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.44s ago. waiting to complete 900s
+wait time 893.56s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 07:51:07.279184
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 8)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 07:51:07.279184 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 9.27s ago. waiting to complete 900s
+wait time 890.73s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 08:06:07.349225
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 9)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 08:06:07.349225 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.42s ago. waiting to complete 900s
+wait time 893.58s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 08:21:07.451168
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 10)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 08:21:07.451168 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.71s ago. waiting to complete 900s
+wait time 893.29s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 08:36:07.541996
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 11)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 08:36:07.541996 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.39s ago. waiting to complete 900s
+wait time 893.61s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 08:51:07.635624
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 12)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 08:51:07.635624 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.42s ago. waiting to complete 900s
+wait time 893.58s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 09:06:07.730942
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 13)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 09:06:07.730942 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.42s ago. waiting to complete 900s
+wait time 893.58s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 09:21:07.819128
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 14)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 09:21:07.819128 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.51s ago. waiting to complete 900s
+wait time 893.49s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 09:36:07.897981
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 15)
+saving class attributes to file client20_live_trade_state_info.h5
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 09:36:07.897981 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.19
+last close RF: 19.27
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.3313584491374866, upd position: 1, upd ema: 4.974011790246918, upd emv: 2.4071569912191104
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 141.07000000000005
+agressive w-spread bid ask buying indicator: 149.82
+agressive w-spread bid ask selling indicator: 136.98
+mid from ask bid close PNC: 155.25, delta: 0.13
+mid from ask bid close RF: 19.27, delta: 0.01 
+mid from high ask low bid PNC: 155.51, delta: 1.32 
+mid from high ask low bid RF: 19.26, delta: 0.12
+w-spread mid close indicator: 141.66, delta: 0.07 
+w-spread mid hilo indicator: 143.40, delta: 0.72 
+delta setting:pct lambda:0.1 delta hilo: 0.72 max_delta: 172.14
+Order delta : 1.28
+updating  zscore information !!!
+last orderId: 9 , current profit est: 44.10  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.6s ago. waiting to complete 900s
+wait time 893.4s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 09:51:07.991621
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 16)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 09:51:07.991621 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 157.19
+last close RF: 19.48
+last z-score: -0.3313584491374866, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.12412120412098412, upd position: 1, upd ema: 5.007948393511331, upd emv: 2.3854854602848814
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 144.45999999999992
+agressive w-spread bid ask buying indicator: 166.36
+agressive w-spread bid ask selling indicator: 98.87
+mid from ask bid close PNC: 157.19, delta: 0.37
+mid from ask bid close RF: 19.48, delta: 0.02 
+mid from high ask low bid PNC: 154.63, delta: 8.31 
+mid from high ask low bid RF: 19.39, delta: 0.43
+w-spread mid close indicator: 144.49, delta: 0.20 
+w-spread mid hilo indicator: 132.62, delta: 4.37 
+delta setting:pct lambda:0.1 delta hilo: 4.37 max_delta: 174.19
+Order delta : 6.75
+updating  zscore information !!!
+last orderId: 9 , current profit est: 64.44  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.36s ago. waiting to complete 900s
+wait time 893.64s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 10:06:08.056040
+current date: 2025-04-15 is a trading date 2025-04-15 
+reqId: -1, errorCode: 2107, errorString: HMDS data farm connection is inactive but should be available upon demand.ushmds, orderReject: 
+reqId: -1, errorCode: 2106, errorString: HMDS data farm connection is OK:ushmds, orderReject: 
+finished historical requests. (updates: 17)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 10:06:08.056040 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 159.41
+last close RF: 19.78
+last z-score: -0.12412120412098412, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.19892830485789878, upd position: 1, upd ema: 4.9957489832087925, upd emv: 2.39099657241608
+total quantity: 6, ratio 1: 6, ratio 2 41, cost estimate:  10135.380000000001, order info - ratio weighted spread : 133.69000000000005
+Calculating differnt spreads and deviations
+w-spread last: 145.48000000000002
+agressive w-spread bid ask buying indicator: 151.54
+agressive w-spread bid ask selling indicator: 134.23
+mid from ask bid close PNC: 159.14, delta: 0.91
+mid from ask bid close RF: 19.79, delta: 0.01 
+mid from high ask low bid PNC: 158.67, delta: 1.86 
+mid from high ask low bid RF: 19.73, delta: 0.15
+w-spread mid close indicator: 143.68, delta: 0.46 
+w-spread mid hilo indicator: 142.89, delta: 1.00 
+delta setting:pct lambda:0.1 delta hilo: 1.00 max_delta: 176.61
+Order delta : 1.73
+updating  zscore information !!!
+last orderId: 9 , current profit est: 70.56  (z-score ideal Thresholds) stop-loss: -210.28 , take-profit: 70.09
+triggering a market order to close the long position and take profits
+
+placing combo order orderId: 114, transmit : True
+limit price: 142.89 + limit delta: -1.73 =  141.15 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 114, status:  PreSubmitted, filled: 0, remaining: 6, avgFillPrice: 0.0, permId: 147990883, parentId: 0, lastFillPrice: 0.0, clientId: 20, whyHeld: , mktCapPrice: 0.0
+Order 114 status not filled.
+Order ID:114 has been submitted
+waiting for price update. Last update was 19.68s ago. waiting to complete 900s
+checking pending order state !!
+
+--------------------------------------------------------------
+Pending order checking routine!! order State: PreSubmitted
+
+Checking that SELL order (id:114, MKT:141.15, size:6 ) could be excecuted based on latest top of book estimates from price update on 2025-04-15 10:06:08.056040
+last close PNC: 159.41
+last close RF: 19.78
+PNC - lowest ASK : 158.05 - highest BID : 158.69 
+RF - lowest ASK : 19.68 - highest BID : 19.8 
+weighted spread price top of book buying: 136.50 
+weighted spread price top of book selling: 145.26 
+w-spread last: 145.48
+Order action: SELL Limit Price: 141.15
+current postion: 1  position if filled: 0
+the old zscore  -0.1989
+the new zscore  -0.1989
+updating  zscore information !!!
+Checking if the profit on this trade is above a certian threshold  i.e. ratio1*delta_Z*sigma_Z > 10
+Profit Estimate using total quantity @z (SELL): 8.836017881910715
+Ideal Profit Estimate using total quantity  (SELL): 70.09485447582499
+Failed profit check -- this will prevent the order submission 
+Failed volatility based profit check -- this may cancel the order submission 
+Current top-of-book profit est: 69.24
+This is a MKT order and will not triger cancel here!!!
+Slippage in the z-score: 0.0  cxl slippage : 0.04892830485789876
+This is a MKT order and will not change due to z-slippage!!!
+the order is still pending....saving progess....
+saving class attributes to file client20_live_trade_state_info.h5
+Last price update was 19.68s ago.
+waiting 440.16s before triggering order status !!
+Execution Details -- ID:114 || SLD 6 PNC,RF @ 20250415 10:06:27 US/Eastern
+openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 114, status:  Filled, filled: 6, remaining: 0, avgFillPrice: 145.91, permId: 147990883, parentId: 0, lastFillPrice: 145.91, clientId: 20, whyHeld: , mktCapPrice: 0.0
+Order ID:114 has been filled by the system
+updating order position 1 -> 0
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 10:13:48.698910
+current date: 2025-04-15 is a trading date 2025-04-15 
+Execution Details -- ID:114 || SLD 36 PNC @ 20250415 10:06:27 US/Eastern
+openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 114, status:  Filled, filled: 6, remaining: 0, avgFillPrice: 145.91, permId: 147990883, parentId: 0, lastFillPrice: 145.91, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 114 is already filled
+already Updating prices
+Execution Details -- ID:114 || BOT 100 RF @ 20250415 10:06:27 US/Eastern
+openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 114, status:  Filled, filled: 6, remaining: 0, avgFillPrice: 145.91, permId: 147990883, parentId: 0, lastFillPrice: 145.91, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 114 is already filled
+already Updating prices
+Execution Details -- ID:114 || BOT 146 RF @ 20250415 10:06:27 US/Eastern
+openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 114, status:  Filled, filled: 6, remaining: 0, avgFillPrice: 145.91, permId: 147990883, parentId: 0, lastFillPrice: 145.91, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 114 is already filled
+already Updating prices
+openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 114, status:  Filled, filled: 6, remaining: 0, avgFillPrice: 145.91, permId: 147990883, parentId: 0, lastFillPrice: 145.91, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 114 is already filled
+already Updating prices
+openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 114, status:  Filled, filled: 6, remaining: 0, avgFillPrice: 145.91, permId: 147990883, parentId: 0, lastFillPrice: 145.91, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 114 is already filled
+already Updating prices
+openOrder -- orderId: 114, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|6,273815|-41;11240,6,BUY,SMART,0,0,,-1;273815,41,SELL,SMART,0,0,,-1, order: 114,20,147990883: MKT SELL 6@0 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 114, status:  Filled, filled: 6, remaining: 0, avgFillPrice: 145.91, permId: 147990883, parentId: 0, lastFillPrice: 145.91, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 114 is already filled
+already Updating prices
+End of Open order stream 
+finished historical requests. (updates: 18)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 10:13:48.698910 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 158.58
+last close RF: 19.69
+last z-score: -0.19892830485789878, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.27195478253497735, upd position: 0, upd ema: 4.983789758680508, upd emv: 2.3988825036884003
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10275.900000000001, order info - ratio weighted spread : 164.94000000000005
+Calculating differnt spreads and deviations
+w-spread last: 164.94000000000005
+agressive w-spread bid ask buying indicator: 173.52
+agressive w-spread bid ask selling indicator: 152.34
+mid from ask bid close PNC: 158.52, delta: 0.48
+mid from ask bid close RF: 19.69, delta: 0.01 
+mid from high ask low bid PNC: 158.67, delta: 1.86 
+mid from high ask low bid RF: 19.74, delta: 0.17
+w-spread mid close indicator: 164.76, delta: 0.24 
+w-spread mid hilo indicator: 162.93, delta: 1.01 
+delta setting:pct lambda:0.1 delta hilo: 1.01 max_delta: 205.45
+Order delta : 2.12
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.38s ago. waiting to complete 900s
+wait time 893.62s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 10:28:48.763485
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 19)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 10:28:48.763485 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 159.21
+last close RF: 19.73
+last z-score: -0.27195478253497735, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.08709908847579657, upd position: 0, upd ema: 5.013972694449692, upd emv: 2.383707597500768
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10307.550000000001, order info - ratio weighted spread : 167.43000000000006
+Calculating differnt spreads and deviations
+w-spread last: 167.43000000000006
+agressive w-spread bid ask buying indicator: 173.93
+agressive w-spread bid ask selling indicator: 157.18
+mid from ask bid close PNC: 159.21, delta: 0.14
+mid from ask bid close RF: 19.73, delta: 0.01 
+mid from high ask low bid PNC: 158.81, delta: 1.57 
+mid from high ask low bid RF: 19.71, delta: 0.12
+w-spread mid close indicator: 167.67, delta: 0.08 
+w-spread mid hilo indicator: 165.55, delta: 0.84 
+delta setting:pct lambda:0.1 delta hilo: 0.84 max_delta: 206.13
+Order delta : 1.68
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.31s ago. waiting to complete 900s
+wait time 893.69s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 10:43:48.863882
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 20)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 10:43:48.863882 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 158.08
+last close RF: 19.57
+last z-score: -0.08709908847579657, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.015425218840020573, upd position: 0, upd ema: 5.025621903753905, upd emv: 2.38203934717112
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10229.6, order info - ratio weighted spread : 167.20000000000016
+Calculating differnt spreads and deviations
+w-spread last: 167.20000000000016
+agressive w-spread bid ask buying indicator: 175.89
+agressive w-spread bid ask selling indicator: 153.84
+mid from ask bid close PNC: 158.08, delta: 0.30
+mid from ask bid close RF: 19.56, delta: 0.01 
+mid from high ask low bid PNC: 158.06, delta: 1.71 
+mid from high ask low bid RF: 19.62, delta: 0.21
+w-spread mid close indicator: 167.44, delta: 0.15 
+w-spread mid hilo indicator: 164.86, delta: 0.96 
+delta setting:pct lambda:0.1 delta hilo: 0.96 max_delta: 204.57
+Order delta : 2.20
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.27s ago. waiting to complete 900s
+wait time 893.73s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 10:58:48.964080
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 21)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 10:58:48.964080 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 158.57
+last close RF: 19.59
+last z-score: -0.015425218840020573, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: 0.17978028967743162, upd position: 0, upd ema: 5.057380038305163, upd emv: 2.389340201944068
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10251.55, order info - ratio weighted spread : 169.67000000000007
+Calculating differnt spreads and deviations
+w-spread last: 169.67000000000007
+agressive w-spread bid ask buying indicator: 175.11
+agressive w-spread bid ask selling indicator: 162.70
+mid from ask bid close PNC: 158.53, delta: 0.39
+mid from ask bid close RF: 19.59, delta: 0.01 
+mid from high ask low bid PNC: 158.25, delta: 0.95 
+mid from high ask low bid RF: 19.56, delta: 0.12
+w-spread mid close indicator: 169.66, delta: 0.20 
+w-spread mid hilo indicator: 168.90, delta: 0.53 
+delta setting:pct lambda:0.1 delta hilo: 0.53 max_delta: 204.98
+Order delta : 1.24
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.28s ago. waiting to complete 900s
+wait time 893.72s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 11:13:49.056141
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 22)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 11:13:49.056141 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 158.21
+last close RF: 19.59
+last z-score: 0.17978028967743162, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.03098216212802461, upd position: 0, upd ema: 5.02309432401945, upd emv: 2.3822031459516797
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10238.95, order info - ratio weighted spread : 167.1500000000001
+Calculating differnt spreads and deviations
+w-spread last: 167.1500000000001
+agressive w-spread bid ask buying indicator: 177.32
+agressive w-spread bid ask selling indicator: 160.76
+mid from ask bid close PNC: 158.22, delta: 0.24
+mid from ask bid close RF: 19.59, delta: 0.01 
+mid from high ask low bid PNC: 158.24, delta: 1.20 
+mid from high ask low bid RF: 19.55, delta: 0.17
+w-spread mid close indicator: 166.98, delta: 0.13 
+w-spread mid hilo indicator: 169.04, delta: 0.69 
+delta setting:pct lambda:0.1 delta hilo: 0.69 max_delta: 204.81
+Order delta : 1.66
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.33s ago. waiting to complete 900s
+wait time 893.67s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 11:28:49.126761
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 23)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 11:28:49.126761 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 158.63
+last close RF: 19.65
+last z-score: -0.03098216212802461, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.06006104568010401, upd position: 0, upd ema: 5.018368727673227, upd emv: 2.382803993099622
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10268.05, order info - ratio weighted spread : 167.20999999999992
+Calculating differnt spreads and deviations
+w-spread last: 167.20999999999992
+agressive w-spread bid ask buying indicator: 172.79
+agressive w-spread bid ask selling indicator: 161.76
+mid from ask bid close PNC: 158.60, delta: 0.19
+mid from ask bid close RF: 19.64, delta: 0.01 
+mid from high ask low bid PNC: 158.37, delta: 0.89 
+mid from high ask low bid RF: 19.61, delta: 0.10
+w-spread mid close indicator: 167.27, delta: 0.10 
+w-spread mid hilo indicator: 167.28, delta: 0.50 
+delta setting:pct lambda:0.1 delta hilo: 0.50 max_delta: 205.32
+Order delta : 1.10
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.31s ago. waiting to complete 900s
+wait time 893.69s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 11:43:49.215546
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 24)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 11:43:49.215546 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 157.54
+last close RF: 19.6
+last z-score: -0.06006104568010401, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.4647822895513102, upd position: 0, upd ema: 4.95183053415222, upd emv: 2.4320207386289057
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10217.9, order info - ratio weighted spread : 161.9799999999999
+Calculating differnt spreads and deviations
+w-spread last: 161.9799999999999
+agressive w-spread bid ask buying indicator: 172.39
+agressive w-spread bid ask selling indicator: 158.26
+mid from ask bid close PNC: 157.55, delta: 0.20
+mid from ask bid close RF: 19.59, delta: 0.01 
+mid from high ask low bid PNC: 158.15, delta: 1.47 
+mid from high ask low bid RF: 19.62, delta: 0.08
+w-spread mid close indicator: 162.29, delta: 0.11 
+w-spread mid hilo indicator: 165.32, delta: 0.78 
+delta setting:pct lambda:0.1 delta hilo: 0.78 max_delta: 204.34
+Order delta : 1.41
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 7.19s ago. waiting to complete 900s
+wait time 892.81s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 11:58:49.217632
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 25)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 11:58:49.217632 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 157.93
+last close RF: 19.66
+last z-score: -0.4647822895513102, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.5098810370433431, upd position: 0, upd ema: 4.944247794948857, upd emv: 2.4424603785306673
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10245.95, order info - ratio weighted spread : 161.82999999999993
+Calculating differnt spreads and deviations
+w-spread last: 161.82999999999993
+agressive w-spread bid ask buying indicator: 167.35
+agressive w-spread bid ask selling indicator: 157.50
+mid from ask bid close PNC: 157.93, delta: 0.33
+mid from ask bid close RF: 19.66, delta: 0.01 
+mid from high ask low bid PNC: 157.77, delta: 0.79 
+mid from high ask low bid RF: 19.62, delta: 0.09
+w-spread mid close indicator: 162.04, delta: 0.17 
+w-spread mid hilo indicator: 162.42, delta: 0.44 
+delta setting:pct lambda:0.1 delta hilo: 0.44 max_delta: 204.89
+Order delta : 0.99
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.32s ago. waiting to complete 900s
+wait time 893.68s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 12:13:49.239850
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 26)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 12:13:49.239850 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 157.85
+last close RF: 19.63
+last z-score: -0.5098810370433431, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.4219366364524563, upd position: 0, upd ema: 4.9589915455029185, upd emv: 2.423069204972868
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10235.95, order info - ratio weighted spread : 162.71000000000004
+Calculating differnt spreads and deviations
+w-spread last: 162.71000000000004
+agressive w-spread bid ask buying indicator: 168.13
+agressive w-spread bid ask selling indicator: 158.15
+mid from ask bid close PNC: 158.02, delta: 0.34
+mid from ask bid close RF: 19.63, delta: 0.01 
+mid from high ask low bid PNC: 157.98, delta: 0.74 
+mid from high ask low bid RF: 19.64, delta: 0.10
+w-spread mid close indicator: 163.66, delta: 0.18 
+w-spread mid hilo indicator: 163.14, delta: 0.42 
+delta setting:pct lambda:0.1 delta hilo: 0.42 max_delta: 204.86
+Order delta : 1.00
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.31s ago. waiting to complete 900s
+wait time 893.69s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 12:28:49.329699
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 27)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 12:28:49.329699 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 157.5
+last close RF: 19.62
+last z-score: -0.4219366364524563, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.5755552861554887, upd position: 0, upd ema: 4.93311247822729, upd emv: 2.4595825963235045
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10221.3, order info - ratio weighted spread : 160.74
+Calculating differnt spreads and deviations
+w-spread last: 160.74
+agressive w-spread bid ask buying indicator: 166.10
+agressive w-spread bid ask selling indicator: 156.04
+mid from ask bid close PNC: 157.52, delta: 0.15
+mid from ask bid close RF: 19.62, delta: 0.01 
+mid from high ask low bid PNC: 157.65, delta: 0.82 
+mid from high ask low bid RF: 19.63, delta: 0.09
+w-spread mid close indicator: 161.15, delta: 0.08 
+w-spread mid hilo indicator: 161.07, delta: 0.45 
+delta setting:pct lambda:0.1 delta hilo: 0.45 max_delta: 204.42
+Order delta : 1.01
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.33s ago. waiting to complete 900s
+wait time 893.67s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 12:43:49.428103
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 28)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 12:43:49.428103 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 157.43
+last close RF: 19.64
+last z-score: -0.5755552861554887, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.700679565910556, upd position: 0, upd ema: 4.9115372794452155, upd emv: 2.498823664796842
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10223.65, order info - ratio weighted spread : 159.28999999999996
+Calculating differnt spreads and deviations
+w-spread last: 159.28999999999996
+agressive w-spread bid ask buying indicator: 164.09
+agressive w-spread bid ask selling indicator: 158.33
+mid from ask bid close PNC: 157.54, delta: 0.22
+mid from ask bid close RF: 19.64, delta: 0.01 
+mid from high ask low bid PNC: 157.67, delta: 0.48 
+mid from high ask low bid RF: 19.63, delta: 0.05
+w-spread mid close indicator: 159.82, delta: 0.11 
+w-spread mid hilo indicator: 161.21, delta: 0.26 
+delta setting:pct lambda:0.1 delta hilo: 0.26 max_delta: 204.57
+Order delta : 0.58
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.31s ago. waiting to complete 900s
+wait time 893.69s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 12:58:49.481519
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 29)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 12:58:49.481519 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.36
+last close RF: 19.61
+last z-score: -0.700679565910556, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -1.1313014488943167, upd position: 0, upd ema: 4.831995315713568, upd emv: 2.7126269414971698
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10179.0, order info - ratio weighted spread : 153.24
+Calculating differnt spreads and deviations
+w-spread last: 153.24
+agressive w-spread bid ask buying indicator: 163.24
+agressive w-spread bid ask selling indicator: 149.79
+mid from ask bid close PNC: 156.37, delta: 0.27
+mid from ask bid close RF: 19.62, delta: 0.01 
+mid from high ask low bid PNC: 156.97, delta: 1.51 
+mid from high ask low bid RF: 19.63, delta: 0.06
+w-spread mid close indicator: 153.03, delta: 0.14 
+w-spread mid hilo indicator: 156.51, delta: 0.78 
+delta setting:pct lambda:0.1 delta hilo: 0.78 max_delta: 203.61
+Order delta : 1.34
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.57s ago. waiting to complete 900s
+wait time 893.43s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 13:13:49.579183
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 30)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 13:13:49.579183 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.38
+last close RF: 19.62
+last z-score: -1.1313014488943167, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -1.1592636338229836, upd position: 0, upd ema: 4.826445811560624, upd emv: 2.73160242767607
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10182.099999999999, order info - ratio weighted spread : 152.89999999999986
+Calculating differnt spreads and deviations
+w-spread last: 152.89999999999986
+agressive w-spread bid ask buying indicator: 157.50
+agressive w-spread bid ask selling indicator: 149.87
+mid from ask bid close PNC: 156.38, delta: 0.16
+mid from ask bid close RF: 19.62, delta: 0.01 
+mid from high ask low bid PNC: 156.59, delta: 0.61 
+mid from high ask low bid RF: 19.64, delta: 0.07
+w-spread mid close indicator: 153.14, delta: 0.08 
+w-spread mid hilo indicator: 153.68, delta: 0.34 
+delta setting:pct lambda:0.1 delta hilo: 0.34 max_delta: 203.62
+Order delta : 0.76
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.29s ago. waiting to complete 900s
+wait time 893.71s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 13:28:49.679040
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 31)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 13:28:49.679040 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.87
+last close RF: 19.64
+last z-score: -1.1592636338229836, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.9953749119821169, upd position: 0, upd ema: 4.858203946111882, upd emv: 2.63016559340941
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10204.050000000001, order info - ratio weighted spread : 155.37000000000012
+Calculating differnt spreads and deviations
+w-spread last: 155.37000000000012
+agressive w-spread bid ask buying indicator: 159.10
+agressive w-spread bid ask selling indicator: 150.70
+mid from ask bid close PNC: 156.88, delta: 0.19
+mid from ask bid close RF: 19.63, delta: 0.01 
+mid from high ask low bid PNC: 156.70, delta: 0.72 
+mid from high ask low bid RF: 19.62, delta: 0.07
+w-spread mid close indicator: 155.65, delta: 0.10 
+w-spread mid hilo indicator: 154.90, delta: 0.39 
+delta setting:pct lambda:0.1 delta hilo: 0.39 max_delta: 204.06
+Order delta : 0.84
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.38s ago. waiting to complete 900s
+wait time 893.62s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 13:43:49.739569
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 32)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 13:43:49.739569 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.31
+last close RF: 19.57
+last z-score: -0.9953749119821169, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -1.001488226603233, upd position: 0, upd ema: 4.857050475182475, upd emv: 2.6335464031123528
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10167.650000000001, order info - ratio weighted spread : 154.81000000000006
+Calculating differnt spreads and deviations
+w-spread last: 154.81000000000006
+agressive w-spread bid ask buying indicator: 162.38
+agressive w-spread bid ask selling indicator: 147.45
+mid from ask bid close PNC: 156.26, delta: 0.27
+mid from ask bid close RF: 19.56, delta: 0.01 
+mid from high ask low bid PNC: 156.32, delta: 1.31 
+mid from high ask low bid RF: 19.57, delta: 0.12
+w-spread mid close indicator: 154.74, delta: 0.14 
+w-spread mid hilo indicator: 154.91, delta: 0.71 
+delta setting:pct lambda:0.1 delta hilo: 0.71 max_delta: 203.30
+Order delta : 1.49
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.34s ago. waiting to complete 900s
+wait time 893.66s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 13:58:49.839071
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 33)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 13:58:49.839071 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.14
+last close RF: 19.59
+last z-score: -1.001488226603233, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -1.1617402679428206, upd position: 0, upd ema: 4.825951466876591, upd emv: 2.7333184267651296
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10166.5, order info - ratio weighted spread : 152.66000000000008
+Calculating differnt spreads and deviations
+w-spread last: 152.66000000000008
+agressive w-spread bid ask buying indicator: 158.42
+agressive w-spread bid ask selling indicator: 150.31
+mid from ask bid close PNC: 156.13, delta: 0.15
+mid from ask bid close RF: 19.59, delta: 0.01 
+mid from high ask low bid PNC: 156.31, delta: 0.61 
+mid from high ask low bid RF: 19.58, delta: 0.08
+w-spread mid close indicator: 152.86, delta: 0.08 
+w-spread mid hilo indicator: 154.37, delta: 0.35 
+delta setting:pct lambda:0.1 delta hilo: 0.35 max_delta: 203.30
+Order delta : 0.81
+updating  zscore information !!!
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.51s ago. waiting to complete 900s
+wait time 893.49s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 14:13:49.928658
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 34)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 14:13:49.928658 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.16
+last close RF: 19.53
+last z-score: -1.1617402679428206, last postion: 0, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.9182005282893809, upd position: 1, upd ema: 4.872581825127573, upd emv: 2.58994358374164
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.67999999999984
+agressive w-spread bid ask buying indicator: 158.37
+agressive w-spread bid ask selling indicator: 148.17
+mid from ask bid close PNC: 156.17, delta: 0.21
+mid from ask bid close RF: 19.54, delta: 0.01 
+mid from high ask low bid PNC: 155.85, delta: 0.84 
+mid from high ask low bid RF: 19.53, delta: 0.09
+w-spread mid close indicator: 155.48, delta: 0.11 
+w-spread mid hilo indicator: 153.27, delta: 0.47 
+delta setting:pct lambda:0.1 delta hilo: 0.47 max_delta: 203.08
+Order delta : 1.02
+updating  zscore information !!!
+Checking if the profit on this trade is above a certian threshold  i.e. ratio1*delta_Z*sigma_Z > 10
+Profit Estimate using total quantity @z (BUY): 66.34188914388683
+Ideal Profit Estimate using total quantity (BUY): 68.14777518482985
+
+placing combo order orderId: 217, transmit : True
+limit price: 155.47 + limit delta: 1.02 =  156.5 
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  PreSubmitted, filled: 0, remaining: 5, avgFillPrice: 0.0, permId: 147990886, parentId: 0, lastFillPrice: 0.0, clientId: 20, whyHeld: , mktCapPrice: 0.0
+Order 217 status not filled.
+Order ID:217 has been submitted
+waiting for price update. Last update was 9.52s ago. waiting to complete 900s
+checking pending order state !!
+
+--------------------------------------------------------------
+Pending order checking routine!! order State: PreSubmitted
+
+Checking that BUY order (id:217, LMT:156.50, size:5 ) could be excecuted based on latest top of book estimates from price update on 2025-04-15 14:13:49.928658
+last close PNC: 156.16
+last close RF: 19.53
+PNC - lowest ASK : 155.66 - highest BID : 156.11 
+RF - lowest ASK : 19.5 - highest BID : 19.57 
+weighted spread price top of book buying: 150.26 
+weighted spread price top of book selling: 156.77 
+w-spread last: 155.68
+Order action: BUY Limit Price: 156.5
+current postion: 0  position if filled: 1
+the old zscore  -0.9182
+the new zscore  -0.9182
+checking for z crossing back over entry line.
+updating  zscore information !!!
+Checking if the profit on this trade is above a certian threshold  i.e. ratio1*delta_Z*sigma_Z > 10
+Profit Estimate using total quantity @z (BUY): 66.34188914388683
+Ideal Profit Estimate using total quantity (BUY): 68.14777518482985
+Slippage in the z-score: 0.0  cxl slippage : 0.03179947171061903
+the order is still pending....saving progess....
+saving class attributes to file client20_live_trade_state_info.h5
+Last price update was 9.52s ago.
+waiting 445.24s before triggering order status !!
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+Execution Details -- ID:217 || BOT 4 PNC,RF @ 20250415 14:14:00 US/Eastern
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  PreSubmitted, filled: 4, remaining: 1, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+Order 217 status not filled.
+Order ID:217 has been submitted
+waiting for price update. Last update was 455.49s ago. waiting to complete 900s
+checking pending order state !!
+
+--------------------------------------------------------------
+Pending order checking routine!! order State: PreSubmitted
+
+Checking that BUY order (id:217, LMT:156.50, size:5 ) could be excecuted based on latest top of book estimates from price update on 2025-04-15 14:13:49.928658
+last close PNC: 156.16
+last close RF: 19.53
+PNC - lowest ASK : 155.66 - highest BID : 156.11 
+RF - lowest ASK : 19.5 - highest BID : 19.57 
+weighted spread price top of book buying: 150.26 
+weighted spread price top of book selling: 156.77 
+w-spread last: 155.68
+Order action: BUY Limit Price: 156.5
+current postion: 0  position if filled: 1
+the old zscore  -0.9182
+the new zscore  -0.9182
+checking for z crossing back over entry line.
+updating  zscore information !!!
+Checking if the profit on this trade is above a certian threshold  i.e. ratio1*delta_Z*sigma_Z > 10
+Profit Estimate using total quantity @z (BUY): 66.34188914388683
+Ideal Profit Estimate using total quantity (BUY): 68.14777518482985
+Slippage in the z-score: 0.0  cxl slippage : 0.03179947171061903
+the order is still pending....saving progess....
+saving class attributes to file client20_live_trade_state_info.h5
+Last price update was 455.49s ago.
+waiting 444.51s before triggering order status !!
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+Execution Details -- ID:217 || BOT 28 PNC @ 20250415 14:14:00 US/Eastern
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  PreSubmitted, filled: 4, remaining: 1, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+Order 217 status not filled.
+Order ID:217 has been submitted
+ Triggering price update for Order 217.
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 14:28:50.554273
+current date: 2025-04-15 is a trading date 2025-04-15 
+Execution Details -- ID:217 || SLD 100 RF @ 20250415 14:14:00 US/Eastern
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  PreSubmitted, filled: 4, remaining: 1, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+Order 217 status not filled.
+Order ID:217 has been submitted
+Execution Details -- ID:217 || SLD 92 RF @ 20250415 14:14:00 US/Eastern
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: PreSubmitted, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  PreSubmitted, filled: 4, remaining: 1, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+Order 217 status not filled.
+Order ID:217 has been submitted
+Execution Details -- ID:217 || BOT 5 PNC,RF @ 20250415 14:14:00 US/Eastern
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+Order ID:217 has been filled by the system
+updating order position 0 -> 1
+orderStatus update for Order 217 - while Price update still in progress.
+Execution Details -- ID:217 || BOT 35 PNC @ 20250415 14:14:00 US/Eastern
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 217 is already filled
+already Updating prices
+Execution Details -- ID:217 || SLD 100 RF @ 20250415 14:14:00 US/Eastern
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 217 is already filled
+already Updating prices
+Execution Details -- ID:217 || SLD 100 RF @ 20250415 14:14:00 US/Eastern
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 217 is already filled
+already Updating prices
+Execution Details -- ID:217 || SLD 40 RF @ 20250415 14:14:00 US/Eastern
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 217 is already filled
+already Updating prices
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 217 is already filled
+already Updating prices
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 217 is already filled
+already Updating prices
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 217 is already filled
+already Updating prices
+openOrder -- orderId: 217, contract: 28812380,PNC,RF,BAG,,,0,?,,SMART,,USD,PNC,RF,COMB,False,,,,combo:11240|7,273815|-48;11240,7,BUY,SMART,0,0,,-1;273815,48,SELL,SMART,0,0,,-1, order: 217,20,147990886: LMT BUY 5@156.5 GTC, status: Filled, Maintenance Margin: 1.7976931348623157E308
+orderStatus -- orderId: 217, status:  Filled, filled: 5, remaining: 0, avgFillPrice: 154.08, permId: 147990886, parentId: 0, lastFillPrice: 154.08, clientId: 20, whyHeld: , mktCapPrice: 0.0
+the order 217 is already filled
+already Updating prices
+End of Open order stream 
+End of Open order stream 
+finished historical requests. (updates: 35)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 14:28:50.554273 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.9
+last close RF: 19.55
+last z-score: -0.9182005282893809, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -1.1266576015092484, upd position: 1, upd ema: 4.832911388250262, upd emv: 2.709545512729647
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 152.89999999999986
+agressive w-spread bid ask buying indicator: 159.14
+agressive w-spread bid ask selling indicator: 151.93
+mid from ask bid close PNC: 155.95, delta: 0.13
+mid from ask bid close RF: 19.55, delta: 0.01 
+mid from high ask low bid PNC: 156.11, delta: 0.55 
+mid from high ask low bid RF: 19.52, delta: 0.07
+w-spread mid close indicator: 153.04, delta: 0.07 
+w-spread mid hilo indicator: 155.54, delta: 0.31 
+delta setting:pct lambda:0.1 delta hilo: 0.31 max_delta: 203.03
+Order delta : 0.72
+updating  zscore information !!!
+last orderId: 217 , current profit est: -5.90  (z-score ideal Thresholds) stop-loss: -204.44 , take-profit: 68.15
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.83s ago. waiting to complete 900s
+wait time 893.17s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 14:43:50.655835
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 36)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 14:43:50.655835 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.7
+last close RF: 19.52
+last z-score: -1.1266576015092484, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -1.1097859601875235, upd position: 1, upd ema: 4.836226567375756, upd emv: 2.6985146844345014
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 152.93999999999983
+agressive w-spread bid ask buying indicator: 155.44
+agressive w-spread bid ask selling indicator: 149.14
+mid from ask bid close PNC: 155.70, delta: 0.13
+mid from ask bid close RF: 19.52, delta: 0.01 
+mid from high ask low bid PNC: 155.71, delta: 0.42 
+mid from high ask low bid RF: 19.54, delta: 0.07
+w-spread mid close indicator: 152.74, delta: 0.07 
+w-spread mid hilo indicator: 152.29, delta: 0.24 
+delta setting:pct lambda:0.1 delta hilo: 0.24 max_delta: 202.71
+Order delta : 0.63
+updating  zscore information !!!
+last orderId: 217 , current profit est: -5.70  (z-score ideal Thresholds) stop-loss: -204.44 , take-profit: 68.15
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.34s ago. waiting to complete 900s
+wait time 893.66s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 14:58:50.754204
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 37)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 14:58:50.754204 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.11
+last close RF: 19.55
+last z-score: -1.1097859601875235, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -1.023327659171321, upd position: 1, upd ema: 4.852911388250264, upd emv: 2.6458663084954455
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 154.3699999999999
+agressive w-spread bid ask buying indicator: 157.77
+agressive w-spread bid ask selling indicator: 150.53
+mid from ask bid close PNC: 156.19, delta: 0.16
+mid from ask bid close RF: 19.55, delta: 0.01 
+mid from high ask low bid PNC: 156.01, delta: 0.76 
+mid from high ask low bid RF: 19.54, delta: 0.04
+w-spread mid close indicator: 155.17, delta: 0.08 
+w-spread mid hilo indicator: 154.15, delta: 0.40 
+delta setting:pct lambda:0.1 delta hilo: 0.40 max_delta: 203.15
+Order delta : 0.72
+updating  zscore information !!!
+last orderId: 217 , current profit est: 1.45  (z-score ideal Thresholds) stop-loss: -204.44 , take-profit: 68.15
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.38s ago. waiting to complete 900s
+wait time 893.62s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 15:13:50.855551
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 38)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 15:13:50.855551 
+Current ratio 8.068966547215103 and vol adjustment 0.849700314912654
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.45
+last close RF: 19.58
+last z-score: -1.023327659171321, last postion: 1, last ema: 5.028127910261093, last emv: 2.6327206704320356
+upd z-score: -0.9702072811681659, upd position: 1, upd ema: 4.862929542458105, upd emv: 2.6165537199538047
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.30999999999995
+agressive w-spread bid ask buying indicator: 157.86
+agressive w-spread bid ask selling indicator: 150.79
+mid from ask bid close PNC: 156.48, delta: 0.08
+mid from ask bid close RF: 19.59, delta: 0.01 
+mid from high ask low bid PNC: 156.27, delta: 0.53 
+mid from high ask low bid RF: 19.57, delta: 0.07
+w-spread mid close indicator: 155.28, delta: 0.05 
+w-spread mid hilo indicator: 154.32, delta: 0.30 
+delta setting:pct lambda:0.1 delta hilo: 0.30 max_delta: 203.54
+Order delta : 0.71
+updating  zscore information !!!
+! Updating because we have reached the end of todays trading day
+updating zema, zemv, ema ratio and volitility adjustment details  !!!
+upd ema_ratio: 8.06174206742147 , upd volitility adjustment 0.8480588110733744
+last orderId: 217 , current profit est: 6.15  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.39s ago. waiting to complete 900s
+wait time 893.61s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 15:28:50.954642
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 39)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 15:28:50.954642 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.76
+last close RF: 19.56
+last z-score: -0.9702072811681659, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.6359000437110107, upd position: 1, upd ema: 4.7578966941803325, upd emv: 2.4621799279929744
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 158.44000000000005
+agressive w-spread bid ask buying indicator: 160.03
+agressive w-spread bid ask selling indicator: 152.46
+mid from ask bid close PNC: 156.78, delta: 0.12
+mid from ask bid close RF: 19.56, delta: 0.01 
+mid from high ask low bid PNC: 156.51, delta: 0.67 
+mid from high ask low bid RF: 19.57, delta: 0.06
+w-spread mid close indicator: 158.34, delta: 0.07 
+w-spread mid hilo indicator: 156.25, delta: 0.36 
+delta setting:pct lambda:0.1 delta hilo: 0.36 max_delta: 203.66
+Order delta : 0.76
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 21.80  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 7.07s ago. waiting to complete 900s
+wait time 892.93s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 15:43:50.994472
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 40)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 15:43:50.994472 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 156.13
+last close RF: 19.5
+last z-score: -0.6359000437110107, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.7240389708862842, upd position: 1, upd ema: 4.742622290526555, upd emv: 2.4917641844130394
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 156.90999999999985
+agressive w-spread bid ask buying indicator: 163.12
+agressive w-spread bid ask selling indicator: 151.40
+mid from ask bid close PNC: 156.13, delta: 0.06
+mid from ask bid close RF: 19.49, delta: 0.01 
+mid from high ask low bid PNC: 156.42, delta: 0.92 
+mid from high ask low bid RF: 19.54, delta: 0.11
+w-spread mid close indicator: 157.15, delta: 0.04 
+w-spread mid hilo indicator: 157.26, delta: 0.51 
+delta setting:pct lambda:0.1 delta hilo: 0.51 max_delta: 202.87
+Order delta : 1.17
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 14.15  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.38s ago. waiting to complete 900s
+wait time 893.62s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 15:58:51.088748
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 41)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 15:58:51.088748 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.84
+last close RF: 19.47
+last z-score: -0.7240389708862842, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.7539936289126652, upd position: 1, upd ema: 4.737366041080619, upd emv: 2.5028723092206047
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 156.32000000000016
+agressive w-spread bid ask buying indicator: 162.18
+agressive w-spread bid ask selling indicator: 152.26
+mid from ask bid close PNC: 155.84, delta: 0.09
+mid from ask bid close RF: 19.46, delta: 0.01 
+mid from high ask low bid PNC: 156.14, delta: 0.80 
+mid from high ask low bid RF: 19.49, delta: 0.09
+w-spread mid close indicator: 156.60, delta: 0.05 
+w-spread mid hilo indicator: 157.22, delta: 0.44 
+delta setting:pct lambda:0.1 delta hilo: 0.44 max_delta: 202.52
+Order delta : 0.99
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 11.20  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.35s ago. waiting to complete 900s
+wait time 893.65s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 16:13:51.173719
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 42)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 16:13:51.173719 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.04
+last close RF: 19.45
+last z-score: -0.7539936289126652, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -1.086825294405048, upd position: 1, upd ema: 4.676084097005548, upd emv: 2.667428379852909
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 151.68000000000006
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 149.69
+mid from ask bid close PNC: 155.08, delta: 0.08
+mid from ask bid close RF: 19.45, delta: 0.01 
+mid from high ask low bid PNC: 155.59, delta: 1.13 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 151.72, delta: 0.05 
+w-spread mid hilo indicator: 155.33, delta: 0.60 
+delta setting:pct lambda:0.1 delta hilo: 0.60 max_delta: 201.94
+Order delta : 1.13
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: -12.00  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 7.58s ago. waiting to complete 900s
+wait time 892.42s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 16:28:51.246097
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 43)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 16:28:51.246097 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -1.086825294405048, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.35s ago. waiting to complete 900s
+wait time 893.65s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 16:43:51.319034
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 44)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 16:43:51.319034 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.43s ago. waiting to complete 900s
+wait time 893.57s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 16:58:51.441514
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 45)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 16:58:51.441514 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.32s ago. waiting to complete 900s
+wait time 893.68s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 17:13:51.545098
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 46)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 17:13:51.545098 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.37s ago. waiting to complete 900s
+wait time 893.63s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 17:28:51.569523
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 47)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 17:28:51.569523 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.3s ago. waiting to complete 900s
+wait time 893.7s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 17:43:51.661435
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 48)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 17:43:51.661435 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.28s ago. waiting to complete 900s
+wait time 893.72s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 17:58:51.751353
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 49)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 17:58:51.751353 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.29s ago. waiting to complete 900s
+wait time 893.71s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 18:13:51.773272
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 50)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 18:13:51.773272 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.28s ago. waiting to complete 900s
+wait time 893.72s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 18:28:51.775712
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 51)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 18:28:51.775712 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.26s ago. waiting to complete 900s
+wait time 893.74s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 18:43:51.844241
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 52)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 18:43:51.844241 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.62s ago. waiting to complete 900s
+wait time 893.38s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 18:58:51.928436
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 53)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 18:58:51.928436 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.34s ago. waiting to complete 900s
+wait time 893.66s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 19:13:52.022896
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 54)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 19:13:52.022896 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.76s ago. waiting to complete 900s
+wait time 893.24s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 19:28:52.077596
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 55)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 19:28:52.077596 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.46s ago. waiting to complete 900s
+wait time 893.54s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 19:43:52.180428
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 56)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 19:43:52.180428 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.52s ago. waiting to complete 900s
+wait time 893.48s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 19:58:52.253637
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 57)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 19:58:52.253637 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 8.92s ago. waiting to complete 900s
+wait time 891.08s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 20:13:52.292475
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 58)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 20:13:52.292475 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.35s ago. waiting to complete 900s
+wait time 893.65s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 20:28:52.390525
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 59)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 20:28:52.390525 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.68s ago. waiting to complete 900s
+wait time 893.32s 
+App 20 is already connected and running.
+sleeping 600s during overwatch (resumes: 2)
+-------------------Updating Prices-------------------------------------
+update date and time :  2025-04-15 20:43:52.491475
+current date: 2025-04-15 is a trading date 2025-04-15 
+finished historical requests. (updates: 60)
+saving class attributes to file client20_live_trade_state_info.h5
+ The current order state: Filled
+
+Checking if z-score will trigger order on 2025-04-15 20:43:52.491475 
+Current ratio 8.06174206742147 and vol adjustment 0.8480588110733744
+the historical last close is used for integer ratios and quantity  
+last close PNC: 155.38
+last close RF: 19.43
+last z-score: -0.8327291350603245, last postion: 1, last ema: 4.862929542458105, last emv: 2.6165537199538047
+upd z-score: -0.8327291350603245, upd position: 1, upd ema: 4.723373581501908, upd emv: 2.5347578350073765
+total quantity: 5, ratio 1: 7, ratio 2 48, cost estimate:  10152.8, order info - ratio weighted spread : 155.67999999999984
+Calculating differnt spreads and deviations
+w-spread last: 155.01999999999987
+agressive w-spread bid ask buying indicator: 160.96
+agressive w-spread bid ask selling indicator: 148.92
+mid from ask bid close PNC: 155.32, delta: 0.13
+mid from ask bid close RF: 19.44, delta: 0.01 
+mid from high ask low bid PNC: 155.54, delta: 1.24 
+mid from high ask low bid RF: 19.45, delta: 0.07
+w-spread mid close indicator: 154.39, delta: 0.07 
+w-spread mid hilo indicator: 154.94, delta: 0.66 
+delta setting:pct lambda:0.1 delta hilo: 0.66 max_delta: 202.02
+Order delta : 1.20
+updating  zscore information !!!
+The last date 2025-04-15 was already updated !!!  we are waiting for a new date
+last orderId: 217 , current profit est: 4.70  (z-score ideal Thresholds) stop-loss: -203.81 , take-profit: 67.94
+the current position remains!!! waiting for next z-score update
+
+waiting for price update. Last update was 6.44s ago. waiting to complete 900s
+wait time 893.56s 
