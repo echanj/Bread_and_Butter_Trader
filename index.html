@@ -42,7 +42,7 @@
   <div class="row content">
     <div class="col-sm-2 sidenav">
         <h4 style="font-family: 'Georgia', serif;">
-            PairB&B: <em>"... In general, it takes one to know one..."</em>
+            PairB&B: <em>"... Simple, stable, and statistically sound—just like Bread and Butter ..."</em>
         </h4>
       <ul class="nav nav-pills nav-stacked">
         <li class="active"><a href="index.html">Main</a></li>
@@ -81,13 +81,13 @@
         
         <div style="margin-bottom: 20px; text-align: center; padding: 40px 0; background-color: #f9f9f9; border-radius: 8px;">
             <h2 style="font-family: 'Georgia', serif; color: #2c3e50; margin-top: 0; font-size: 36px; font-weight: bold; letter-spacing: 1px;">
-                Welcome to the Offical Web Guide of the PairB&B Automated Trading Systems
+                Welcome to the Offical Web Guide for PairB&B Automated Trading Systems
             </h2>
             <p style="font-family: Arial, sans-serif; color: #7f8c8d; font-size: 18px; margin-top: 10px; max-width: 600px; margin-left: auto; margin-right: auto;">
-                We are a team of scientists, engineers, and software developers who are constantly designing and testing our novel automated trading framework. Based on statistical arbitrage approaches, machine learning and AI, our framework does not rely on one single strategy. Predictive modeling techniques are used to determine the best set of micro-strategies available for any given time. Our goal is to research, innovate, and test the potential of a wide variety of relible automated trading strategies that can be incorporated into our framework thus, helping our clients succeed in the world of trading.
+                We are a multidisciplinary team of scientists, engineers, and software developers dedicated to the continuous research and development of a cutting-edge automated trading framework. Grounded in statistical arbitrage and enhanced by machine learning and AI, our system is designed to be adaptive—leveraging a dynamic set of micro-strategies tailored to evolving market conditions. Rather than relying on a single fixed approach, we use predictive modeling to identify and deploy the most effective strategies in real time. Our mission is to explore, validate, and integrate a diverse range of robust algorithmic trading methods to build a resilient and intelligent trading engine capable of thriving in today's complex financial markets.
                 <br>
 
-                Your journey to understanding how you can benefit from our automated trading systems starts here.
+                Here, we share the insights, strategies, and data-driven methods behind our automated trading framework. Discover the logic, methodology, and performance behind our automated trading systems—built to adapt, evolve, and deliver in dynamic market conditions.
             </p>
         </div>
         
@@ -108,7 +108,7 @@
         </div>
           
         <div style="font-size: 14px; margin-bottom: 14px;">
-            <p><strong>Please keep in mind:</strong> As in many statistical modelling approaches, assumptions are made about market behavior.</p>
+            <p><strong>If our work has captured your interest, we encourage you to contact us prior to referencing or utilizing any material featured on this site.  </strong> </p>
         </div>
           
         <br><br>
@@ -118,7 +118,13 @@
         </div>
         <div style="font-size: 15px; line-height: 1.6; color: #333;">
             <p> 
-                Our algorithmic trading journey has led to the humble development of a fully automated backtesting and screening engine, designed around concepts such as generalized pairs trading, cross-sectional analysis, PCA, factor modeling, mean reversion, OU process, Kelly factor and trading parameter optimization (to name a few). Many concepts are wrapped into the engine: A standalone framework which functions as a Trading Automaton (or meta-simulator). We are constantly integrating and testing new methods and approaches in our platform. This is done via running many trading experiments over historical data, typically termed backtesting simulation. this amounts to alot of data which we can then use to optimise the overall system perfromace. This is done using a combination of well accepted machine learning techniques as well as cutting edge AI research. 
+                Our algorithmic trading journey has culminated in the development of a robust, fully automated backtesting and screening engine. This system is built around a variety of advanced concepts, including generalized pairs trading, cross-sectional analysis, principal component analysis (PCA), factor modeling, mean reversion dynamics, Ornstein-Uhlenbeck (OU) processes, trend-following approaches, the Kelly criterion, and trading parameter optimization—among others.
+            </p>
+            <p>
+                These components are tightly integrated into a standalone, multi-stage framework that initially functions as a Trading Automaton—a meta-simulator designed to evaluate a wide range of trading strategies. Our workflow is structured around two core stages: a rigorous screening process and fully automated execution. We continuously integrate and test new methods by running extensive backtesting simulations on historical data. This produces a rich dataset that we use to refine our models and optimize overall system performance.
+            </p>      
+            <p>
+                Our optimization approach combines established machine learning techniques with insights from cutting-edge AI research (eg. NLG, RAG, CAG, LLM pipelines, agent workflows), allowing us to refine strategies and adapt to evolving market conditions.
             </p>
             <p><a href="./risk_and_performance.html" style="text-decoration: none; color: #2980b9;">Click here to see risk and perfromance metrics</a> 
             </p>
@@ -126,12 +132,12 @@
             </p>
             <p></p><a href="./automated_execution.html" style="text-decoration: none; color: #2980b9;"> Click here for details of how to automate strategies with a brokerage. </a></p>
             <p>
-                The type of micro-strategies the software incorporates are currently based on insights from Dr. Ernest Chan and the well-regarded paper, 
-                <em>"Statistical Arbitrage in the U.S. Equities Market"</em> by Marco Avellaneda and Jeong-Hyun Lee. One approach is to simulate trading using multiple historical time series data blocks and ranks profitable, low-risk Z-score signals using metrics such as the Sharpe ratio. Given its current lower-frequency operation, trading with full automation is not required, allowing for strategic discretion in the trading process.
+                
+                Among the micro-strategies currently incorporated into the software are approaches inspired by the work of Dr. Ernest Chan and the well-regarded paper
+                <em>"Statistical Arbitrage in the U.S. Equities Market"</em> by Marco Avellaneda and Jeong-Hyun Lee. One strategy involves simulating trades across multiple historical time series data blocks and ranking profitable, low-risk Z-score signals using performance metrics such as the Sharpe ratio. Given the system's lower-frequency operation, full automation is not required, allowing for a degree of strategic discretion in trade execution.
             </p>
             <p>
-                The workflow still supports discretionary order submissions (i.e. clients do thier own analysis and submit orders manually) and leverages the strength of mean-reverting Z-score signals and their deviation from the mean. To enhance the automaton's suggestions, additional technical analysis is incorporated, utilizing tools like ARIMA, GARCH, and MSM. While these metrics can be further analyzed using large language models (LLMs) for additional insight, we find this to be less essential, especially for automated execution. 
-                Most technical analysis outputs are set to default when running our system. This site only shows the default outputs as examples. However, we do tailor outputs (adjust parameters, etc) for our clients upon request.
+                The workflow continues to support discretionary order submission (i.e., clients conduct their own analysis and submit trades manually) while leveraging the strength of mean-reverting Z-score signals and their deviations from the mean. To refine the system's recommendations, additional layers of technical analysis—such as ARIMA, GARCH, and Markov-Switching Models (MSM)—are integrated. These signals and patterns can be further analyzed using large language models (LLMs) to generate deeper insight. We experiment with agentic LLM workflows and integrate Cache-Augmented Generation (CAG) and Retrieval-Augmented Generation (RAG) techniques, alongside custom LLM chatbot pipelines, to facilitate and enhance trade-related activities.
             </p>
                 
         </div>
@@ -145,7 +151,8 @@
         
         <div>
             <h4><b>Our trading processes are intended to be a fully automated!!! <a href="./automated_execution.html" style="text-decoration: none; color: #2980b9;"> (details here). </a></b> 
-                However, it's good practice for understanding a concept by trying to do it manually. Perhaps you prefer the manual approach??? Market wizards are known for their intuition. We here at PairB&B are definitely not market wizards, so we like to automate things. 
+                 That said, manually executing trades can be an excellent way to build intuition and gain a deeper understanding of the underlying strategies. If you prefer a hands-on approach, you're in good company—many renowned traders have relied heavily on intuition. At PairB&B, we don't claim to be market wizards, which is exactly why we prefer to rely on systematic, automated methods.
+
             </h4>
             <h3>Instructions for manual use of the technical info examples</h3>
             <div style="font-size: 14px; margin-bottom: 14px;">
@@ -204,7 +211,7 @@
             <h3>Using the Automaton for Portfolio Simulation</h3>
             <div style="font-size: 14px; margin-bottom: 14px;">
               <p>
-                For descriptions, examples, and results of running the Traders for portfolio simulations, please refer to the <a href="machine_learn.html" style="text-decoration: none; color: #2980b9;">Machine Learning section</a> of this website.
+                For descriptions, examples, and results of running portfolio simulations, please refer to the <a href="machine_learn.html" style="text-decoration: none; color: #2980b9;">Machine Learning section</a> of this website.
               </p>
             </div>
           </div>
@@ -247,7 +254,7 @@
       <h2>Are you interested in running our cash-machine live?</h2>
       <h5><span class="glyphicon glyphicon-time"></span> Post by Eric, NOV 11, 2024.</h5>
       <h5><span class="label label-success">Pairs Trading</span></h5><br>
-      <p>Hi, my name is Eric, and I work here at PairB&B as a science officer. I was a crystallographer both in industry and academia and have experience in crystal structure prediction as well as modulating disorder in crystal lattices. A lot of that work is generally considered computationally facing research, which requires statistical and quantum mechanics methods. 
+      <p>Hi, my name is Eric, and I work here at PairB&B as a science officer. I was a crystallographer both in industry and academia and have experience in crystal structure prediction as well as modulating disorder in crystal lattices. 
 
       <em>If you are interested in our software performing automated execution for you, then don't hesitate to connect with our administration or directly with myself.</em>
     </p>  
@@ -303,7 +310,7 @@
             </div>
             <div class="col-xs-10">
               <h4>Eric <small>Nov 11, 2024, 9:25 PM</small></h4>
-              <p>I just work here, don't confuse us with Ernest Chan or Tom Starke.</p>
+              <p>I'm just a worker here, don't confuse us with Ernest Chan or Tom Starke.</p>
               <br>
             </div>
           </div>
@@ -314,8 +321,7 @@
 </div>
 
 <footer class="container-fluid">
-    <p> <em>"... The main difference I see between a God and an AGI is that 
-        when you get down on your knees and pray to the AGI it has to give you a response ..."</em>   </p>
+    <p> <em>"... The difference between God and AGI? One replies when you ask questions. The other needs better documentation...."</em>   </p>
     <p>Copyright © 2022-2050 by Dr. Eric Joseph Chan. All Rights Reserved. <a href="terms-of-use.html">Terms of Use</a></p>
 </footer>
 
